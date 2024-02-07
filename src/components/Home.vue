@@ -3,26 +3,14 @@
 </script>
 
 <template>
-  <div class="greetings">
+  <div>
     <h1>Welcome</h1>
   </div>
 </template>
 
 <style scoped>
 h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-.greetings h1 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1 {
-    text-align: left;
-  }
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 </style>
